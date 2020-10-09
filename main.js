@@ -11,6 +11,8 @@ var player_y = 10;
 var player_object;
 var block_object;
 
+//JS
+
 function player_update() {
     fabric.Image.fromURL("player.png", function (Img) {
         player_object = Img;
